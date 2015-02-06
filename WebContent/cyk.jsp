@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <script type="text/javascript">
-  function send_on(f) {
+  function send_on() {
 	
 	  alert("들어오지마");
 }
@@ -15,7 +15,8 @@
 </script>
 <body >
 <h2> 빅브라더스에 오신걸 환영합니다.</h2>
-<input type="button" name="go" onclick="send_on(f)">
+<h2> 게스트가 추가한 파일</h2>
+<input type="button"  value ="눌러" onclick="send_on()">
 
 </body>
 </html>
