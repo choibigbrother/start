@@ -9,7 +9,7 @@
 <script type="text/javascript">
   function send_on() {
 	
-	  alert("들어오지마");
+	  alert("가~~~~아");
 }
 
 </script>
