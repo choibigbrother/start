@@ -1,4 +1,4 @@
-<%@ include language="java" contentType="text/html; charset=EUC-KR"
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
     pageEncoding="EUC-KR"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
@@ -6,15 +6,16 @@
 <meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
 <title>Insert title here</title>
 </head>
-<body>
+<script type="text/javascript">
+  function send_on(f) {
+	
+	  alert("µé¾î¿ÀÁö¸¶");
+}
 
-  ì²˜ìŒ ìœ¼ë¡œ GitHUB ì‚¬ìš©í•©ë‹ˆë‹¤.<p>
-  
-  2ì¡° ìž…ë‹ˆë‹¤.
-  
-  ì´ê±´ ë¡œì»¬ í…ŒìŠ¤íŠ¸
-  
-  
+</script>
+<body >
+<h2> ºòºê¶ó´õ½º¿¡ ¿À½Å°É È¯¿µÇÕ´Ï´Ù.</h2>
+<input type="button" name="go" onclick="send_on(f)">
 
 </body>
 </html>
